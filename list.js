@@ -22,8 +22,8 @@ const addBtn = document.querySelector("#add-btn");
 <div class="task">
 <input type="checkbox" class="task-check">
 <span class="taskname">${taskName}</span>
-<button class="edit">Edit<i class="fas fa-edit"></i></button>
-<button class="delete">Delete<i class="far fa-trash-alt"></i></button>
+<button class="edit"><img src="edit.png" alt="edit button"><i class="fas fa-edit"></i></button>
+<button class="delete"><img src="delete.png" alt="delete button"><i class="far fa-trash-alt"></i></button>
 </div>
 `;
 
